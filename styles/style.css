@@ -1,0 +1,507 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/* navbar */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navlogotitle{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 10px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 110px 20px 95px;
+    max-width: 1440px;
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+}
+.navbar a{
+    display: flex;
+    text-decoration: none;
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.home{
+    color: rgb(254, 163, 1);
+}
+.about{
+    color: rgb(1, 172, 253);
+}
+.facilities{
+    color: rgb(5, 212, 223);
+}
+.admission{
+    color: rgb(93, 88, 239);
+}
+.nav-btn{
+    border-radius: 12px;
+    background: rgb(254, 163, 1);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    width: 197px;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+    cursor: pointer;
+}
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    max-width: 1440px;
+}
+.banner-title{
+    font-family: Quicksand;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.bannertitle-01{
+    color: rgb(254, 163, 1);
+}
+.bannertitle-02{
+    color: rgb(17, 17, 17);
+}
+.bannertitle-03{
+    color: rgb(1, 172, 253);
+}
+.banner-subtitle{
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.enroll-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    border: none;
+    cursor: pointer;
+}
+.curriculam{
+    background-image: url("../assets/bg.png");
+    padding: 60px 0px;
+}
+.curriculam-title{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    text-align: center;
+}
+.curriculam-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 100px 100px;
+}
+.card-01{
+    padding: 43px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    justify-items: center;
+    text-align: center;
+}
+.card-02{
+    padding: 50px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    justify-items: center;
+    text-align: center;
+}
+.card-03{
+    padding: 50px;
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+    justify-items: center;
+    text-align: center;
+}
+.card-title{
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30.65px;
+    text-align: center;
+    margin: 20px 0px;
+}
+.card-subtitle{
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: center;
+}
+.read-more{
+    margin: 20px 0px;
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.read-01{
+    color: rgb(100, 200, 255);
+}
+.read-02{
+    color: rgb(240, 170, 0);
+}
+.read-03{
+    color: rgb(135, 0, 255);
+}
+.btn{
+    display: flex;
+}
+.arrows{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.arrow {
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+    position: relative;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-content: center;
+    color: rgb(255, 255, 255);
+    font-family: Font Awesome 5 Free;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24px;
+    text-align: center;
+}
+.stories{
+    background: url("../assets/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    padding: 60px;
+}
+.stories-title{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+.stories-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.stories-card-section-01{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.stories-card-title-01{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: left;
+    margin: 0px 30px;
+    padding: 20px 0px;
+}
+.stories-card-subtitle-01{
+    color: rgb(102, 102, 102);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    text-align: left;
+    margin: 0px 0px 20px 30px;
+}
+.stories-card-date{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    width: 150px;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    margin-left: 22px;
+    background-color: rgb(149, 178, 38);
+}
+.external{
+    background-color: rgb(93, 88, 240);
+}
+.stories-card-date-01{
+    border-radius: 47.93px;
+    background: rgb(60, 216, 232);
+    color: rgb(255, 255, 255);
+    font-family: Raleway;
+    font-size: 15.34px;
+    font-weight: 500;
+    line-height: 28.76px;
+    width: 150px;
+    height: 18.22px;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10px 20px;
+    margin-left: 28px;
+}
+.stories-card-section-02{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.stories-card img{
+    border-radius: 16px 16px 0px 0px;
+}
+.stories-card-background{
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+.stories-card-all-title{
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 15.34px;
+    font-weight: 700;
+    line-height: 25px;
+    padding: 22px 20px;
+}
+.view-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0px  0px 0px;
+}
+.view-all-btn{
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    border: none;
+    gap: 10;
+    padding: 10px 50px;
+    text-align: center;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(1, 172, 253);
+    padding: 120px 0px ;
+}
+.footer-left-side{
+    display: flex;
+    align-items: center;
+}
+.footer-logo{
+    background-color: #fff;
+}
+.footer-logo-title{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    padding: 10px;
+}
+.footer-logo-subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    padding: 20px 0px;
+    text-align: left;
+}
+.middle-class-title{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+.footer-middle-side-links{
+    gap: 20px;
+}
+.footer-middle-side-links a{
+    display: grid;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    padding: 10px 0px;
+}
+.footer-right-side-title{
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.footer-right-side-social-media{
+    display: flex;
+    padding: 20px 0px;
+}
+.footer-right-side-social-media img{
+    padding-right: 10px;
+}
+label #btn,
+label #cancel{
+    color: #fff;
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+#check{
+    display: none;
+}
+/* responsive media query */
+@media screen and (max-width: 768px) {
+    .nav{
+        display: none;
+    }
+    .navbar-media-query{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        border: 1px solid rgb(169, 48, 23);
+    }
+    .hero-img{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+    .nav{
+        padding: 0px;
+    }
+    .banner-section{
+        flex-direction: column;
+        padding: 20px 20px;
+        align-items: center;
+    }
+    .banner-items{
+        flex-direction: column;
+        justify-items: center;
+    }
+    .banner-title{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 50px;
+    }
+    .banner-subtitle{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .curriculam-title{
+        font-size: 30px;
+    }
+    .curriculam-cards{
+        flex-direction: column;
+        padding: 20px 20px 0px;
+    }
+    .arrows{
+        display: none;
+    }
+    .stories-card{
+        flex-direction: column;
+    }
+    .stories-card-section-01{
+        display: none;
+    }
+    .stories-card-section-02{
+        padding: 0px 50px;
+    }
+    .footer{
+        flex-direction: column;
+        padding: 30px 30px;
+    }
+    .footer-left-side{
+        padding-bottom: 20px;
+    }
+    .footer-right-side{
+        padding-top: 15px;
+    }
+    .navbar{
+        input
+    }
+}
+@media screen and (min-width: 769px) {
+    .hero-img-media-query{
+        display: none;
+    }
+    .navbar-media-query{
+        display: none;
+    }
+}
